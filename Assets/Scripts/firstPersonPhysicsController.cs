@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class firstPersonPhysicsController : MonoBehaviour
+{
+    // get the rigid body
+    public Rigidbody thisRigidbody;
+    
+    //make two floats
+    public float forwardBackward;
+    public float rightleft;
+    
+    //speeds
+    public float speed = 10f;
+    public float moveSpeed = 5f;
+
+    public float mouseX, mouseY;
+
+    public Vector3 inputVector;
+    
+    
+    
+    void Start()
+    {
+        thisRigidbody = GetComponent<Rigidbody>();
+    }
+
+    
+    
+    // Update is called once per frame
+    void Update()
+    {
+        
+        //마우스 센시티비티를 고려해서 3정도를 곱해주면 됨.
+        mouseX = Input.GetAxis("Mouse X") * 4f ;
+        mouseY = Input.GetAxis("Mouse Y") * 4f;
+        
+        transform.Rotate(0, mouseX, 0);
+        Camera.main.transform.Rotate(-mouseY, 0, 0);
+        
+        forwardBackward = Input.GetAxis("Vertical");
+        rightleft = Input.GetAxis("Horizontal");
+
+        inputVector = transform.forward * forwardBackward;
+        inputVector += transform.right * rightleft;
+    }
+
+    private void FixedUpdate()
+    {
+        thisRigidbody.velocity = (inputVector * moveSpeed * Time.fixedDeltaTime * 50);
+        //keeps the movement consistent regardless of the framing = fixed Delta Time
+
+        //add the real gravity in order to make the camera fall at the right spped
+        //thisRigidbody.velocity = (inputVector * moveSpeed * Time.fixedDeltaTime * 50) + (Physics.gravity*.69f);
+
+
+    }
+}

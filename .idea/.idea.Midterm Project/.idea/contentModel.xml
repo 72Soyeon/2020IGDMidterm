@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\GS65\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\GS65\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Midterm Project.-813451918.00" t="ExcludeRecursive" />
+    <e p="C:\Users\GS65\Desktop\Spring 2020\Intermediate\Midterm\Midterm Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="firstPersonPhysicsController.cs" t="Include" />
+          <e p="RaycastGrounded.cs" t="Include" />
+          <e p="RaycastMouse.cs" t="Include" />
+          <e p="Rumba.cs" t="Include" />
+          <e p="sceneChange.cs" t="Include" />
+          <e p="sceneChangetoMain.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Midterm Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
