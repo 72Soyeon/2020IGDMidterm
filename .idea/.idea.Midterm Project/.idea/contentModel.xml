@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraChange.cs" t="Include" />
           <e p="firstPersonPhysicsController.cs" t="Include" />
           <e p="RaycastGrounded.cs" t="Include" />
           <e p="RaycastMouse.cs" t="Include" />
@@ -15,6 +16,7 @@
           <e p="sceneChange.cs" t="Include" />
           <e p="sceneChangetoMain.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="thirdPersonController.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95070a08-399e-473f-b352-756934d18cce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeling/desk.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/desk.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeling/desk.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/desk.blend.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modeling/desk.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/desk.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NYC.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NYC.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +37,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ThirdPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rumba.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/thirdPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +98,7 @@
       <updated>1582644806335</updated>
       <workItem from="1582644807820" duration="7074000" />
       <workItem from="1583166542496" duration="25000" />
+      <workItem from="1583423261722" duration="5171000" />
     </task>
     <servers />
   </component>

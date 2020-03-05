@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class sceneChangetoMain : MonoBehaviour
 {
+    public GameObject player;
     void OnTriggerEnter()
     {
-        SceneManager.LoadScene("Main");
-        
+        player.transform.position = new Vector3((float) 3.1, (float) -0.4,(float) 10.5);
+        print("it hit??");
+
+
     }
 }

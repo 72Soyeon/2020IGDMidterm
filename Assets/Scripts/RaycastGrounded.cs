@@ -26,7 +26,7 @@ public class RaycastGrounded : MonoBehaviour
         //4shoot the raycast
         if (Physics.Raycast(myRay, castingDistance))
         {
-            Debug.Log("HIT GROUND");
+            //Debug.Log("HIT GROUND");
         }
         else
         {

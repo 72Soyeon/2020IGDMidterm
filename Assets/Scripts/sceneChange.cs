@@ -1,25 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class sceneChange : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    /* void OnTriggerEnter(Collider other)
     
-    void OnTriggerEnter()
     {
         SceneManager.LoadScene("NYC");
-        print("it is collided");
+        print("it is collided with " + other.name);
+    }
+    */
+    
+    public GameObject player;
+    void OnTriggerEnter()
+    {
+        player.transform.position = new Vector3((float) 82.8, (float) -106.2, (float) -138);
+        print(player.transform.position);
+        print("it hit");
+
     }
 }
