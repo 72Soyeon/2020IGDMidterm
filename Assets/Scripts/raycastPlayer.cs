@@ -34,7 +34,7 @@ public class raycastPlayer : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-               player.transform.position = new Vector3((float) 3.1, (float) -0.4,(float) 10.5);
+               player.transform.position = new Vector3((float) -2.4, (float) -1.4,(float) 1.38);
                 myHit.transform.gameObject.SetActive(false);
             }
         }
