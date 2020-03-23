@@ -4,20 +4,9 @@
     <list default="true" id="95070a08-399e-473f-b352-756934d18cce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/New Material 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/New Material 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/grad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/grad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/gradient.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/gradient.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/shining red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/shining red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building1.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building1.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building1.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building1.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building2.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building2.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/building2.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/building2.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/memoryControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/memoryControl.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +19,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.1.8/Shaders/Lit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/rotateMoney.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/rotationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rumba.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ThirdPersonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rumba.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/thirdPersonController.cs" />
@@ -53,7 +43,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/rotationScript.cs" />
         <option value="$PROJECT_DIR$/Assets/memoryControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/rotate money.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/rotationScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/rotateMoney.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +105,7 @@
       <workItem from="1583423261722" duration="5171000" />
       <workItem from="1583517074943" duration="6517000" />
       <workItem from="1584861606707" duration="667000" />
-      <workItem from="1584917303956" duration="4555000" />
+      <workItem from="1584917303956" duration="10065000" />
     </task>
     <servers />
   </component>

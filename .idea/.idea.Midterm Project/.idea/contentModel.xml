@@ -14,6 +14,7 @@
           <e p="RaycastGrounded.cs" t="Include" />
           <e p="RaycastMouse.cs" t="Include" />
           <e p="raycastPlayer.cs" t="Include" />
+          <e p="rotateMoney.cs" t="Include" />
           <e p="rotationScript.cs" t="Include" />
           <e p="Rumba.cs" t="Include" />
           <e p="sceneChange.cs" t="Include" />

@@ -6,22 +6,51 @@ using UnityEngine;
 public class raycastPlayer : MonoBehaviour
 {
 
+    //ray casting
     private RaycastHit myHit;
     public GameObject player;
 
-    public Material [] NYCcolor1;
+    
+    //반응 큐브
+    public GameObject goingBack1;
+    public GameObject goingBack2;
+    public GameObject goingBack3;
 
+    
+    //public bench
+    public GameObject water;
+    
+    //door
+    public GameObject door;
+    
+    // public GameObject build1;
+    public GameObject build1;
+    public GameObject build2;
+    public GameObject build3;
+    public GameObject build4;
+    
+    
+    //color change
+    public Material [] NYCcolor1;
+    public Material[] waterColor;
+    public Material[] doorColor;
+
+    
+    //renderer
     Renderer rend1;
     Renderer rend2;
     Renderer rend3;
     Renderer rend4;
 
+    private Renderer waterRend;
+    private Renderer doorRend;
     
-    public GameObject build1;
-    public GameObject build2;
-    public GameObject build3;
-    public GameObject build4;
+    
+    //3개 이상 모이면 가는거
+    private int finalCount = 0;
 
+    
+    
     private void Start()
     {
         rend1 = build1.GetComponent<Renderer>();
@@ -29,6 +58,14 @@ public class raycastPlayer : MonoBehaviour
         rend3 = build3.GetComponent<Renderer>();
         rend4 = build4.GetComponent<Renderer>();
 
+        waterRend = water.GetComponent<Renderer>();
+        waterRend.enabled = true;
+        waterRend.sharedMaterial = waterColor[0];
+        
+        doorRend = door.GetComponent<Renderer>();
+        doorRend.enabled = true;
+        doorRend.sharedMaterial = doorColor[0];
+;
         rend1.enabled = true;
         rend1.sharedMaterial = NYCcolor1 [0];
         
@@ -40,7 +77,12 @@ public class raycastPlayer : MonoBehaviour
 
         rend4.enabled = true;
         rend4.sharedMaterial = NYCcolor1 [0];
-
+        
+        
+        goingBack1.SetActive(false);
+        goingBack2.SetActive(false);
+        goingBack3.SetActive(false);
+        
     }
 
 
@@ -62,6 +104,9 @@ public class raycastPlayer : MonoBehaviour
                 Debug.Log("memory 1 hit");
                 myHit.transform.gameObject.GetComponent<memoryControl>().TriggerMemory();
                 myHit.transform.gameObject.GetComponent<BoxCollider>().enabled = false;
+                
+                goingBack1.SetActive(true);
+
             }
         }
 
@@ -77,6 +122,7 @@ public class raycastPlayer : MonoBehaviour
                 rend3.sharedMaterial = NYCcolor1 [1];
                 rend4.sharedMaterial = NYCcolor1 [1];
 
+                finalCount += 1;
             }
         }
         
@@ -89,8 +135,11 @@ public class raycastPlayer : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("memory 2 hit");
+                
                 myHit.transform.gameObject.GetComponent<memoryControl>().TriggerMemory();
                 myHit.transform.gameObject.GetComponent<BoxCollider>().enabled = false;
+                goingBack2.SetActive(true);
+
             }
         }
 
@@ -101,14 +150,53 @@ public class raycastPlayer : MonoBehaviour
                 player.transform.position = new Vector3((float) -2.4, (float) -1.4,(float) 1.38);
                 myHit.transform.gameObject.SetActive(false);
                 
+                waterRend.sharedMaterial = waterColor[1];
                 
+                finalCount += 1;
+
             }
         }
         
+        
+        //memory 3
+        if (myHit.transform.gameObject.tag == "memory3")
+        {
+            //Debug.Log ("memory 1 hit");
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("memory 3 hit");
+                
+                myHit.transform.gameObject.GetComponent<memoryControl>().TriggerMemory();
+                myHit.transform.gameObject.GetComponent<BoxCollider>().enabled = false;
+                goingBack3.SetActive(true);
+
+            }
+        }
+
+        if (myHit.transform.gameObject.tag == "memory3NYC")
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                player.transform.position = new Vector3((float) -2.4, (float) -1.4,(float) 1.38);
+                myHit.transform.gameObject.SetActive(false);
+                
+                finalCount += 1;
+
+            }
+        }
+
+
+        if (finalCount == 3)
+        {
+            //문 색이 변하고 포탈로 쓰임
+            doorRend.sharedMaterial = doorColor[1];
+            door.GetComponent<BoxCollider>().enabled = false;
+
+        }
 
     }
     
     }
-    
-    
+
+
 }

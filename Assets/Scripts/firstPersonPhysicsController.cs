@@ -57,4 +57,13 @@ public class firstPersonPhysicsController : MonoBehaviour
 
 
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "outside")
+        {
+            transform.position = new Vector3((float) 78, (float) 270, (float) 275);
+
+        }    
+    }
 }
