@@ -6,6 +6,8 @@ TagManager:
   tags:
   - memory1
   - memory1 NYC
+  - memory2
+  - memory2NYC
   layers:
   - Default
   - TransparentFX
