@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 67b212def051428449546175e57486d3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NYC.unity
     guid: b2f15469d1c4da34fb0e40a3ce29c90b
   m_configObjects: {}

@@ -6,6 +6,9 @@ using UnityEngine;
 public class raycastPlayer : MonoBehaviour
 {
 
+    public GameObject basicInfo;
+
+    
     //ray casting
     private RaycastHit myHit;
     public GameObject player;
@@ -22,6 +25,8 @@ public class raycastPlayer : MonoBehaviour
     
     //door
     public GameObject door;
+
+    public GameObject bridge;
     
     // public GameObject build1;
     public GameObject build1;
@@ -34,6 +39,7 @@ public class raycastPlayer : MonoBehaviour
     public Material [] NYCcolor1;
     public Material[] waterColor;
     public Material[] doorColor;
+    public Material[] bridgeColor; 
 
     
     //renderer
@@ -44,6 +50,7 @@ public class raycastPlayer : MonoBehaviour
 
     private Renderer waterRend;
     private Renderer doorRend;
+    private Renderer bridgeRend;
     
     
     //3개 이상 모이면 가는거
@@ -65,6 +72,10 @@ public class raycastPlayer : MonoBehaviour
         doorRend = door.GetComponent<Renderer>();
         doorRend.enabled = true;
         doorRend.sharedMaterial = doorColor[0];
+
+        bridgeRend = bridge.GetComponent<Renderer>();
+        bridgeRend.enabled = true;
+        bridgeRend.sharedMaterial = bridgeColor[0];
 ;
         rend1.enabled = true;
         rend1.sharedMaterial = NYCcolor1 [0];
@@ -180,6 +191,9 @@ public class raycastPlayer : MonoBehaviour
                 player.transform.position = new Vector3((float) -2.4, (float) -1.4,(float) 1.38);
                 myHit.transform.gameObject.SetActive(false);
                 
+                bridgeRend.sharedMaterial = bridgeColor[1];
+
+                
                 finalCount += 1;
 
             }
@@ -191,6 +205,12 @@ public class raycastPlayer : MonoBehaviour
             //문 색이 변하고 포탈로 쓰임
             doorRend.sharedMaterial = doorColor[1];
             door.GetComponent<BoxCollider>().enabled = false;
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            basicInfo.SetActive(false);
 
         }
 

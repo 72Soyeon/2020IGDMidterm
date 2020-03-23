@@ -19,12 +19,19 @@ public class firstPersonPhysicsController : MonoBehaviour
     public float mouseX, mouseY;
 
     public Vector3 inputVector;
+
+    public GameObject greeting;
+    public GameObject particle;
     
     
     
     void Start()
     {
         thisRigidbody = GetComponent<Rigidbody>();
+        greeting.SetActive(false);        
+        particle.SetActive(false);
+
+
     }
 
     
@@ -63,6 +70,9 @@ public class firstPersonPhysicsController : MonoBehaviour
         if (other.gameObject.tag == "outside")
         {
             transform.position = new Vector3((float) 78, (float) 270, (float) 275);
+            greeting.SetActive(true);
+            particle.SetActive(true);
+
 
         }    
     }
