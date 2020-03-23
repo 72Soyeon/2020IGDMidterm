@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95070a08-399e-473f-b352-756934d18cce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Material.006.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/Material.006.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Material.007.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/Material.007.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/another chair.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/another chair.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/bed.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/bed.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/bednew.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/bednew.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/bednew.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/bednew.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/sofa.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/sofa.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/table.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/table.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modeling/table.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modeling/table.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/memoryControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/memoryControl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastGrounded.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.1.8/Shaders/Lit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,8 +40,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/sceneChangetoMain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/rotationScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/memoryControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/memoryControl.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +99,7 @@
       <workItem from="1583423261722" duration="5171000" />
       <workItem from="1583517074943" duration="6517000" />
       <workItem from="1584861606707" duration="667000" />
+      <workItem from="1584917303956" duration="1541000" />
     </task>
     <servers />
   </component>

@@ -52,7 +52,7 @@ public class memoryControl : MonoBehaviour
                 cursor.SetActive(true);
                 itemText.text = " ";
                 
-                player.transform.position = new Vector3((float) 82.8, (float) -106.2, (float) -138);
+                player.transform.position = new Vector3((float) 91.3, (float) -105.6, (float) -257.6);
 
             
         }
