@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Midterm Project",
+"productVersion": "0.1",
+"dataUrl": "real_finished.data.unityweb",
+"wasmCodeUrl": "real_finished.wasm.code.unityweb",
+"wasmFrameworkUrl": "real_finished.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0f6"
+}
