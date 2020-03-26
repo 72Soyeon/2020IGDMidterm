@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95070a08-399e-473f-b352-756934d18cce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/sceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.1.8/Shaders/Lit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/raycastPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/memoryControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -107,6 +107,7 @@
       <workItem from="1583517074943" duration="6517000" />
       <workItem from="1584861606707" duration="667000" />
       <workItem from="1584917303956" duration="13961000" />
+      <workItem from="1585234606154" duration="3309000" />
     </task>
     <servers />
   </component>

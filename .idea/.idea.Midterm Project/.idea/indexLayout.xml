@@ -23,6 +23,7 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>obj</Path>
+      <Path>real_finished</Path>
     </explicitExcludes>
   </component>
 </project>
