@@ -1029,7 +1029,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141538933}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &141538937
 Camera:
   m_ObjectHideFlags: 0
@@ -1638,6 +1638,7 @@ MonoBehaviour:
   inputVector: {x: 0, y: 0, z: 0}
   greeting: {fileID: 538404018}
   particle: {fileID: 1942528955}
+  pitch: 0
 --- !u!1001 &245651724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7122,7 +7123,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797316039}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &797316043
 Camera:
   m_ObjectHideFlags: 0
@@ -7900,7 +7901,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2848dde9f90c094aad548da3dceb39a, type: 2}
+  - {fileID: 2100000, guid: 6f8522efb52d39d4e887c7ac7f874045, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12311,7 +12312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1380678567
 Transform:
   m_ObjectHideFlags: 0
@@ -17509,7 +17510,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862261839}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1862261842
 Camera:
   m_ObjectHideFlags: 0

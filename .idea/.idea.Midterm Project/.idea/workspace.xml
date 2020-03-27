@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95070a08-399e-473f-b352-756934d18cce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/firstPersonPhysicsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,8 @@
       <workItem from="1583517074943" duration="6517000" />
       <workItem from="1584861606707" duration="667000" />
       <workItem from="1584917303956" duration="13961000" />
-      <workItem from="1585234606154" duration="3309000" />
+      <workItem from="1585234606154" duration="3918000" />
+      <workItem from="1585328994885" duration="360000" />
     </task>
     <servers />
   </component>

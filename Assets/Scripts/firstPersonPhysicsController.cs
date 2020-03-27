@@ -24,6 +24,8 @@ public class firstPersonPhysicsController : MonoBehaviour
     public GameObject particle;
 
     private Transform cameraTransform;
+
+    public float pitch;
     
     
     
@@ -35,6 +37,8 @@ public class firstPersonPhysicsController : MonoBehaviour
         particle.SetActive(false);
 
         cameraTransform = Camera.main.transform;
+
+        Cursor.visible = false;
     }
 
     
@@ -48,27 +52,15 @@ public class firstPersonPhysicsController : MonoBehaviour
         mouseY = Input.GetAxis("Mouse Y") * 4f;
 
         transform.Rotate(0, mouseX, 0);
+        
+        //clamp pitch (rotation)
+        pitch += mouseY;
+        pitch = Mathf.Clamp(pitch, -55, 55);
+
+        cameraTransform.localRotation = Quaternion.Euler(-pitch, 0, 0);
 
         
-        //mouseY = Input.GetAxis("Mouse Y") * 4f;
-        float rotVertical = Input.GetAxis("Mouse Y") * 4f;
-
-        
-        //mouseY = Input.GetAxis("Mouse Y");
-        
-        
-
-       
-        //vertical
-        //Camera.main.transform.Rotate(-mouseY, 0, 0);
-        
-        
-        
-        rotVertical = Mathf.Clamp(rotVertical, 0, 115);
-        cameraTransform.localRotation *= Quaternion.Euler(-rotVertical, 0, 0);
-
-        
-
+        //move control
         forwardBackward = Input.GetAxis("Vertical");
         rightleft = Input.GetAxis("Horizontal");
 
@@ -76,6 +68,8 @@ public class firstPersonPhysicsController : MonoBehaviour
         inputVector += transform.right * rightleft;
         
     }
+    
+    
 
     private void FixedUpdate()
     {
